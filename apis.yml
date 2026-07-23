@@ -1,8 +1,24 @@
 aid: aurigin-systems
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aurigin-systems.png
 name: Aurigin Systems
-description: Aurigin Systems is a company surfaced as a portfolio company of battery-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Aurigin Systems, Inc. was an intellectual-property management software company founded in
+  1992 and headquartered in Cupertino, California. It built online patent and trademark information
+  services and business-automation software for intellectual-asset management, raising roughly $54M in
+  venture funding (investors included Battery Ventures) over its lifetime. The company operated under
+  Chapter 11 bankruptcy protection before substantially all of its assets were acquired by Information
+  Holdings Inc. in May 2002. It is defunct, has no surviving website, developer portal, or public API,
+  and was surfaced only as a historical portfolio lead from a Battery Ventures scrape.
 url: https://raw.githubusercontent.com/api-evangelist/aurigin-systems/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +26,26 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-defunct-reason: Assets acquired by Information Holdings Inc. in May 2002 following Chapter 11; no surviving developer surface.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Intellectual Property
+- Patents
+- Trademarks
+- Software
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
