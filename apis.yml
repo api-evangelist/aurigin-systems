@@ -28,7 +28,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 x-status: defunct
 x-defunct-reason: Assets acquired by Information Holdings Inc. in May 2002 following Chapter 11; no surviving developer surface.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
